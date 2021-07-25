@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contenedor borde">
+        <!--MENU -->
+        <div class="menu borde">
+            <img src="./assets/logo.svg" alt="" class="logo">
+            <!--MENU ESCRITORIO-->
+            <nav class="navegacion">
+                <ul>
+                    <li>EPISODIOS</li>
+                    <li>NOSOTROS</li>
+                    <li>ENTREVISTAS</li>
+                    <li>TÓPICOS</li>
+                </ul>
+            </nav>
+            <!--MENU CELULAR-->
+            <nav class="navegacion-celular">
+                <label for="cangreburger">
+                    <img src="./assets/hamburguesa_icono.svg" alt="burger">
+                </label>
+                <input type="checkbox" id="cangreburger">
+                
+                <div class="nav-menu-movil" >
+                    <div>EPISODIOS</div>
+                    <div>NOSOTROS</div>
+                    <div>ENTREVISTAS</div>
+                    <div>TÓPICOS</div>
+                </div>
+            </nav>
+        </div>
+        <!--ENCABEZADO-->
+        <div class="encabezado">
+            <h1 class="fuente_plex" >Hello <span class="rayita">world</span> pale blue dot<span class="punto"
+                >.</span</h1>
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button>CONOCÉ MÁS</button>
+        </div >
+        <!-- EPISODIOS-->
+        <div class="episodios">
+            <h1 class="fuente_plex" id="titulo-episodios">Episodios</h1>
+            <div id="podcast">
+                <iframe src="https://open.spotify.com/embed/show/2MWqU5ZbO69jy3RZ74wgdM"  frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/show/1Et8hZk1DwKw6PtBFGpwSD"  frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/59PXOfe6zrEOky2fcl0cqH"  frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/2PSacIuV7FY0G4o3Yex1Zi"  frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="poligono"></div>
+        </div>
+        <!-- INFO->DE DONDE VENIMOS-->
+        <div class="info ">
+            <img src="./assets/phone.png" alt="">
+            <div class="info-descripcion ">
+                <h1  >De dónde venimos</h1>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. <br><br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+        <!-- INVITADAS ESTELARES-->
+        <div id="invitadas-estelares">
+            <h1>Invitadas/os estelares</h1>
+            <div class="imagenes">
+                <img src="./assets/grace-hopper.png" alt="grace hopper">
+                <img src="./assets/Katie-Bouman.png" alt="Katie Bouman">
+                <img src="./assets/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="an ERA UNIVAC">
+                <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="Eniac">
+                <img src="./assets/susan-kare.png" alt="susan-kare">
+            </div>
+
+
+        </div>
+        <!-- ICONOS-->
+        <div class="iconos">
+            <h1>Algunos de nuestros temas</h1>
+            <div class="cajas " >
+                <div class="centrar ">
+                    <img src="./assets/icon1.svg" alt="">
+                    <h2 >Trabajo remoto</h2>
+                </div>
+
+                <div class="centrar ">
+                    <img src="./assets/icon2.svg" alt="">
+                    <h2 >Repensando la programación</h2>
+                </div>
+
+                <div class="centrar ">
+                    <img src="./assets/icon3.svg" alt="">
+                    <h2 >Bases del código</h2>
+                </div>
+
+                <div class="centrar ">
+                    <img src="./assets/icon4.svg" alt="">
+                    <h2 >Seguridad informática</h2>
+                </div>
+            </div>
+        </div>   
+        <!-- QUIERES LAS ULTIMAS NOVEDADES-->
+        <div class="quieres-las-ultimas-novedades">
+            <h1 class="fuente_plex" id="titulo-quieres">¿Quieres las últimas novedades?</h1>
+            <button>ESCUCHÁ LOS EPISODIOS</button>      
+        </div> 
+        <!-- PARTE FINAL REDES-->
+        <div class="final">
+            <h1 class="fuente_plex">© 2019— Hello blue pale dot</h1>
+            <div class="redes">
+                <img src="./assets/spotify.png" alt="">
+                <img src="./assets/instagram.png" alt="">
+                <img src="./assets/twitter.png" alt="">
+                <img src="./assets/facebook.png" alt="">
+                <img src="./assets/telegram.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
