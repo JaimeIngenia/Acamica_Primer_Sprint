@@ -286,6 +286,29 @@
 
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-     *MEDIA QUERIS*     *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 @media only screen and (max-width:400px) {
+    /*---------------------------------Animación exis--------------------------*/
+    .navegacion-celular{
+        display: flex;
+        justify-content: center;
+    }
+    .navegacion-celular label span{
+        border-radius: 5px;
+        background: black;
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin: 5px auto;
+        transition: all 0.6s ease;
+    }
+    .navegacion-celular input:checked + label span:nth-child(1){
+        transform: translateY(7px) rotate(45deg);
+    }
+    .navegacion-celular input:checked + label span:nth-child(2){
+        opacity: 0%;
+    }
+    .navegacion-celular input:checked + label span:nth-child(3){
+        transform: translateY(-7px) rotate(-45deg);
+    }
     /*1111111111111111 menu hambuerguesa celular 11111111111111*/ 
     .navegacion-celular{
         display: block;
@@ -295,7 +318,7 @@
         display: none;
     }
     /*1111111111111111 clicked 11111111111111*/
-    #cangreburger:checked + .nav-menu-movil{
+    #cangreburger:checked ~ .nav-menu-movil{
         transform: translateX(0%);
     }
     /*1111111111111111 fin hambuergesa 11111111111111*/
