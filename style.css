@@ -55,11 +55,20 @@
     color: #060A24;
     letter-spacing: 0;
     line-height: 28px;
+    
 }
 .navegacion ul{
     display: flex;
     justify-content: space-around;/*nuevo*/
     margin-right: 100px;
+}
+.navegacion ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navegacion ul li a:hover{
+    color: #00F3BB;
+    text-decoration: line-through;
 }
 /*111111111 menu  hambuerguesa celular 1111111*//*nuevo*/
 .nav-menu-movil div{
@@ -118,6 +127,9 @@
     text-align: center;
     line-height: 24px;
 }
+.encabezado button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
 .navegacion-celular{
     display: none;
 }
@@ -129,7 +141,6 @@
     clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
     padding-top: 186px;     
 }
-
 #titulo-episodios{
     color: #fff;
     font-size: 48px;
@@ -256,6 +267,9 @@
     text-align: center;
     line-height: 24px;
 }
+.quieres-las-ultimas-novedades button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
 /* ********************************************PARTE FINAL REDES************************************* */
 .final{
     width: 1440px;
@@ -283,7 +297,9 @@
     width: 16px;
     height: 16px;
 }
-
+.final .redes a img:hover{
+    background-image:#00F3BB;
+}
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-     *MEDIA QUERIS*     *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 @media only screen and (max-width:400px) {
     /*---------------------------------Animación exis--------------------------*/
