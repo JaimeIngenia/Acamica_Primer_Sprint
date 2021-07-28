@@ -304,8 +304,16 @@
 @media only screen and (max-width:400px) {
     /*---------------------------------Animación exis--------------------------*/
     .navegacion-celular{
-        display: flex;
-        justify-content: center;
+        position: relative;
+        /* top: 0px; */
+        /* right: -29px; */
+        /* overflow: hidden; */
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 18px;
+        height: 24px;
+        display: block;
+        margin-right: 10px;
     }
     .navegacion-celular label span{
         border-radius: 5px;
@@ -326,9 +334,9 @@
         transform: translateY(-7px) rotate(-45deg);
     }
     /*1111111111111111 menu hambuerguesa celular 11111111111111*/ 
-    .navegacion-celular{
+    /* .navegacion-celular{
         display: block;
-    }
+    } */
     /*1111111111111111 menu  web 11111111111111*/
     .navegacion{
         display: none;
@@ -348,10 +356,10 @@
     .navegacion{
         display: none;
     }
-    .navegacion-celular{
+    /* .navegacion-celular{
         display: block;
         margin-right: 19px;
-    }
+    } */
     /* --------------------------------------------   *ENCABEZADO* *MEDIA QUERIS*  -------------------------------------------- */
     .encabezado{
         padding-left: 16px;
